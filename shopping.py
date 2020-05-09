@@ -16,9 +16,9 @@ t3 = x-d3+z
 print("Flipkart Rs."+t1)
 print("Snapdeal Rs."+t2)
 print("Amazon Rs."+t3)
-if(t1<=t2 && t1<=t3):
+if(t1<=t2 & t1<=t3):
     print("He will prefer Flipkart")
-elif(t2<=t3 && t2<=t1):
+elif(t2<=t3 & t2<=t1):
     print("He will prefer Snapdeal")
 else:
     print("He will prefer Amazon")
